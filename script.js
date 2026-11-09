@@ -19,5 +19,6 @@ button.addEventListener("click", () => {
 });
 
 console.log("Hello Git!");
+console.log(isClicked);
 
 
