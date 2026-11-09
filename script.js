@@ -18,5 +18,7 @@ button.addEventListener("click", () => {
     isClicked = !isClicked;
 });
 
+console.log("Hello Git!");
+
 
 
