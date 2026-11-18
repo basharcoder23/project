@@ -9,7 +9,7 @@ let button =document.getElementsByTagName("button")[0];
 // Global Variables
 
 let isClicked = false;
-
+let previousColor = -1;
 
 // Click Events
 
@@ -31,7 +31,15 @@ button.addEventListener("click", () => {
 
 button.addEventListener("click", () => {
 
-    console.log("Clicked Button");
+    let color = ["#e0b822", "#d21111", "#19a309", "#2252e0", "#960ad7"];
+
+    let randomColor = Math.floor(Math.random() * color.length);
+
+    while (randomColor === previousColor) randomColor = Math.floor(Math.random() * 4);
+
+    previousColor = randomColor;
+
+    div.style.backgroundColor = color[randomColor];
 
 });
 

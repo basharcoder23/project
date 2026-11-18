@@ -32,5 +32,6 @@ button {
     border-radius: 5px;
     background-color: #0d76c6;
     color: #fff;
+    user-select: none;
 }
 
