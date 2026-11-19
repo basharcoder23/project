@@ -18,17 +18,6 @@ button.addEventListener("click", () => {
     isClicked = !isClicked;
 });
 
-
-// My first update on GitHub
-
-// My second update from GitHub......
-
-
-
-// This change was made in main
-// This change was made in conflict-test
-
-
 button.addEventListener("click", () => {
 
     let color = ["#e0b822", "#d21111", "#19a309", "#2252e0", "#960ad7"];
